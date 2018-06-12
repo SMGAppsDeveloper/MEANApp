@@ -5,10 +5,23 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
-.HeaderNav, a{
-    background-color: rgb(2, 56, 2);
+.HeaderNav li{
+    background-color: rgb(6, 121, 6);
     font-weight: bold;
-    text-decoration-color: #a8f7c2;
-    text-decoration-style: none;
-    font-size: 20px;
+    font-size: 20px; 
+}
+li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a:hover {
+    background-color: rgb(0, 92, 116);
+    color: white;
+}
+.img{
+    height: auto;
+    width: 100%;
 }
